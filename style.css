@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'candhblack';
+    src: url(CALVINN.TTF);
+}
+
+.mainback{
+    width: 960px;
+    height: 960px;
+    border-style: solid;
+    border-width: 2px 2px;
+    border-color: black;
+    background-color: white;
+    margin: auto;
+  
+    object-fit: cover;
+    
+}
+
+.headerback{
+    width: 960px;
+    height: 100px;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    border-color: black;
+    background-image: url(candh4.png);
+    position: relative;
+    margin: 0px 0px 20px 0px;
+}
+
+.headerback:after{
+    content: "Hangman";
+    width: 200px;
+    height: 70px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    font-family: 'candhblack';
+    text-align: center;
+    font-size: 50px;
+    margin: auto;
+    position: absolute;
+    left: 39.5%;
+    top: 15%;
+}
+
+.column {
+    float: left;
+}
+
+.left {
+    
+    width: 238px;
+    height: 800px;
+    border-style: solid;
+    border-width: 2px 0px;
+    border-color: black;
+    text-align: center;
+    font-family: 'candhblack';
+    font-stretch: ultra-expanded;
+    font-size: 32px;
+    
+    
+}
+
+#imageleft{
+    width: 238px;
+    height: 652px;
+   
+    
+}
+.right{
+    width: 238px;
+    height: 800px;
+    border-style: solid;
+    border-width: 2px 0px;
+    border-color: black;
+    text-align: center;
+    font-family: 'candhblack';
+    font-size: 32px;
+}
+
+.middle {
+    width: 50%;
+    height: 800px;
+    border-style: solid;
+    border-width: 2px 2px;
+    border-color: black;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1, h2, h3, 
+h4, h5, h6, #pressKeyTryAgain {
+    padding: 5px;
+    font-family: 'candhblack';
+    text-align: center;
+   
+}
+
+#wordInPlay{
+    letter-spacing: 10px;
+}
+ #startButton {
+     font-family: 'candhblack';
+     position: absolute;
+     left: 575px;
+ }
